@@ -1,0 +1,19 @@
+body{
+    margin: 20px;
+    background: black;
+}
+
+.container{
+    max-width: 760 px;
+    margin: auto;
+    border: 3px solid white;
+    background: white;
+}
+img{
+    width: 100%;
+}
+.imgs{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    grid-gap: 5px;
+}
